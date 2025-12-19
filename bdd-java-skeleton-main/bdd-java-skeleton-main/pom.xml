@@ -5,7 +5,11 @@
     <groupId>cucumber</groupId>
     <artifactId>cucumber-java-skeleton</artifactId>
     <version>0.0.1</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>demo</module>
+        <module>okkkkk</module>
+    </modules>
     <name>Cucumber-Java Skeleton</name>
 
     <properties>

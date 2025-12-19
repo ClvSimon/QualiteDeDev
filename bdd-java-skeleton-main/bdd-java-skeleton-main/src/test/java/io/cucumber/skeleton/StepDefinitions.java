@@ -1,25 +1,27 @@
 package io.cucumber.skeleton;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class StepDefinitions {
 
-    @Given("something")
-    public void I_do_something() {
-        // context
+    ComptoirDuReve library;
+
+    @Given("une boutique de livre")
+    public void createBoutique() {
+        library = new ComptoirDuReve();
     }
 
-    @When("I call the method")
-    public void I_call_the_method() {
-        // method to call
+    @When("j'ajoute le tome {int} au panier")
+    public void jAjouteLeTomeAuPanier(int numeroDeTome) {
+        library.addBookToBasket(numeroDeTome);
     }
 
-    @Then("result is ok")
-    public void the_result_should_be_true() {
-        assertThat(true).isTrue();
+    @Then("le prix total est de {double}$")
+    public void LePrixTotalEstDe$(double prix) {
+        assertThat(library.totalprice()).isEqualTo(prix);
     }
 }

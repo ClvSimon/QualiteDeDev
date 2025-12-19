@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.exemple.AppTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.exemple.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet\target\test-classes;C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet\target\classes;C:\Users\sclav\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sclav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet\target\test-classes;C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet\target\classes;C:\Users\sclav\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sclav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\sclav\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sclav\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\sclav\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.0.36-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\sclav\AppData\Local\Temp\surefire15811863054981587197\surefirebooter740552229512516091.jar C:\Users\sclav\AppData\Local\Temp\surefire15811863054981587197 2025-12-15T11-43-46_792-jvmRun1 surefire2857988512757705818tmp surefire_017188644546019162673tmp"/>
+    <property name="sun.java.command" value="C:\Users\sclav\AppData\Local\Temp\surefire6132946510475212485\surefirebooter-20251215122418097_3.jar C:\Users\sclav\AppData\Local\Temp\surefire6132946510475212485 2025-12-15T12-24-17_982-jvmRun1 surefire-20251215122418097_1tmp surefire_0-20251215122418097_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.exemple.AppTest#shouldAnswerWithTrue"/>
-    <property name="surefire.test.class.path" value="C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet\target\test-classes;C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet\target\classes;C:\Users\sclav\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sclav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="test" value="com.exemple.AppTest#testRegleSurvie"/>
+    <property name="surefire.test.class.path" value="C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet\target\test-classes;C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet\target\classes;C:\Users\sclav\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sclav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\sclav\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sclav\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\sclav\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\sclav\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sclav"/>
     <property name="user.language" value="fr"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2025-09-16"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.0.36-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet"/>
+    <property name="basedir" value="C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sclav\AppData\Local\Temp\surefire15811863054981587197\surefirebooter740552229512516091.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sclav\AppData\Local\Temp\surefire6132946510475212485\surefirebooter-20251215122418097_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+36-LTS"/>
@@ -48,7 +48,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\sclav\AppData\Local\Temp\"/>
     <property name="java.version" value="25"/>
-    <property name="user.dir" value="C:\Users\sclav\Documents\BUT3\Qualite-Devellopement\TP1\mon-projet"/>
+    <property name="user.dir" value="C:\Users\sclav\Documents\GitHub\QualiteDeDev\TP1\mon-projet"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -62,5 +62,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.exemple.AppTest" time="0.003"/>
+  <testcase name="testRegleSurvie" classname="com.exemple.AppTest" time="0.028"/>
 </testsuite>
